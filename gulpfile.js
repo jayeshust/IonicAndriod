@@ -14,7 +14,7 @@ var paths = {
 
 gulp.task('default', ['sass']);
 
-gulp.task('e2e', function() {
+gulp.task('package', function() {
   //manual uninstall, the apk will else not reflect the new changes
   exec('adb uninstall com.ionicframework.ionicappiumprotractorexample806497', function(err, stdout, stderr) {
     console.log(stdout);
