@@ -11,7 +11,7 @@ exports.config = {
         browserName: "",
         autoWebview: true,
         //CHANGE THIS TO YOUR ABSOLUTE PATH
-        app: 'D:/protractor/ionic-appium-protractor-example/platforms/android/build/outputs/apk/android-debug.apk'
+        app: 'C:/Users/Infinity Labs/.jenkins/workspace/Demo Pipeline/platforms/android/build/outputs/apk/android-debug.apk'
        // app: 'D:/dc_MyProductivity_debug.apk'
         //newCommandTimeout: 60
     },
