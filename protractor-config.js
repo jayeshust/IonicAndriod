@@ -6,8 +6,8 @@ exports.config = {
 
     capabilities: {
         platformName: 'android',
-        platformVersion: '4.2',
-        deviceName: 'MC40C',
+        platformVersion: '6.0',
+        deviceName: 'Nexus',
         browserName: "",
         autoWebview: true,
         //CHANGE THIS TO YOUR ABSOLUTE PATH
