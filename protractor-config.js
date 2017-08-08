@@ -8,6 +8,8 @@ exports.config = {
         platformName: 'android',
         platformVersion: '6.0',
         deviceName: 'Nexus',
+        appPackage: 'com.ionicframework.ionicappiumprotractorexample806497',
+        appActivity: 'com.ionicframework.ionicappiumprotractorexample806497.MainActivity',
         browserName: "",
         autoWebview: true,
         //CHANGE THIS TO YOUR ABSOLUTE PATH
