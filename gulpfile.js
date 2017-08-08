@@ -16,7 +16,7 @@ gulp.task('default', ['sass']);
 
 gulp.task('package', function() {
   //manual uninstall, the apk will else not reflect the new changes
- // exec('adb uninstall com.ionicframework.ionicappiumprotractorexample806497', function(err, stdout, stderr) {
+  exec('adb uninstall com.ionicframework.ionicappiumprotractorexample806497', function(err, stdout, stderr) {
    // console.log(stdout);
    // console.log(stderr);
     //generate a new android-debug.apk
@@ -28,7 +28,7 @@ gulp.task('package', function() {
         console.log(stdout);
         console.log(stderr);
       });
-   // });
+   });
   });
 });
 
